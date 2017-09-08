@@ -81,5 +81,337 @@
 				"url": "https://trello-attachments.s3.amazonaws.com/5899f0b171f1eb50e8878e7f/58a28896cc109a3902f5bcfd/c9d9a7da64a3b2f70018cc4d14abfb3e/170x170bb.jpg"
 			}
 		]
+	},
+	{
+		"id": "58d8dcdbde5c6965a2a6bd74",
+		"badges": {
+			"votes": 0,
+			"viewingMemberVoted": false,
+			"subscribed": false,
+			"fogbugz": "",
+			"checkItems": 0,
+			"checkItemsChecked": 0,
+			"comments": 0,
+			"attachments": 0,
+			"description": false,
+			"due": ""
+		},
+		"checkItemStates": null,
+		"closed": false,
+		"dateLastActivity": "",
+		"desc": "Explore challenges in humanitarian assistance with experts from across the world.",
+		"descData": {
+			"emoji": {}
+		},
+		"due": "",
+		"email": "",
+		"idBoard": "",
+		"idChecklists": null,
+		"idLabels": null,
+		"idList": "58d796c6d5cd68d0a879de28",
+		"idMembers": null,
+		"idShort": 0,
+		"idAttachmentCover": "",
+		"manualCoverAttachment": false,
+		"labels": [
+			{
+				"id": "58a288e8cd7f2980d6a0b35f",
+				"idBoard": "5899f0b171f1eb50e8878e7f",
+				"name": "Humanitarian Crises",
+				"color": "sky",
+				"uses": 10
+			}
+		],
+		"name": "Humanitarian Policy and Conflict Research",
+		"pos": 229375,
+		"shortUrl": "",
+		"url": "",
+		"attachments": [
+			{
+				"id": "58d8e0521f0737d0e3ac01f4",
+				"bytes": 0,
+				"date": "",
+				"edgeColor": "",
+				"idMember": "",
+				"isUpload": false,
+				"mimeType": "",
+				"name": "listen",
+				"previews": null,
+				"url": "https://itunes.apple.com/us/podcast/hpcr-podcasts/id355897368?mt=2"
+			},
+			{
+				"id": "58d8e756e12c6b0d2157bbe7",
+				"bytes": 0,
+				"date": "",
+				"edgeColor": "",
+				"idMember": "",
+				"isUpload": false,
+				"mimeType": "",
+				"name": "rss",
+				"previews": null,
+				"url": "http://feeds.feedburner.com/LiveSeminarSeries"
+			},
+			{
+				"id": "58d8eaaa3eadb50ddd70a5ad",
+				"bytes": 0,
+				"date": "",
+				"edgeColor": "",
+				"idMember": "",
+				"isUpload": false,
+				"mimeType": "",
+				"name": "logo",
+				"previews": null,
+				"url": "https://trello-attachments.s3.amazonaws.com/5899f0b171f1eb50e8878e7f/58d8dcdbde5c6965a2a6bd74/6f1a3571d5d95076ec15ef96417b9686/170x170bb.jpg"
+			}
+		]
+	},
+	{
+		"id": "58d8dce254e0a40f15472ec2",
+		"badges": {
+			"votes": 0,
+			"viewingMemberVoted": false,
+			"subscribed": false,
+			"fogbugz": "",
+			"checkItems": 0,
+			"checkItemsChecked": 0,
+			"comments": 0,
+			"attachments": 0,
+			"description": false,
+			"due": ""
+		},
+		"checkItemStates": null,
+		"closed": false,
+		"dateLastActivity": "",
+		"desc": "Get the latest tips, news, information and field interviews on major disasters. ",
+		"descData": {
+			"emoji": {}
+		},
+		"due": "",
+		"email": "",
+		"idBoard": "",
+		"idChecklists": null,
+		"idLabels": null,
+		"idList": "58d796c6d5cd68d0a879de28",
+		"idMembers": null,
+		"idShort": 0,
+		"idAttachmentCover": "",
+		"manualCoverAttachment": false,
+		"labels": [
+			{
+				"id": "58a288e8cd7f2980d6a0b35f",
+				"idBoard": "5899f0b171f1eb50e8878e7f",
+				"name": "Humanitarian Crises",
+				"color": "sky",
+				"uses": 10
+			}
+		],
+		"name": "Disaster Podcast",
+		"pos": 294911,
+		"shortUrl": "",
+		"url": "",
+		"attachments": [
+			{
+				"id": "58d8e07a7619cef2d65d68e7",
+				"bytes": 0,
+				"date": "",
+				"edgeColor": "",
+				"idMember": "",
+				"isUpload": false,
+				"mimeType": "",
+				"name": "listen",
+				"previews": null,
+				"url": "https://itunes.apple.com/us/podcast/disaster-podcast/id824789312?mt=2\u0026ls=1"
+			},
+			{
+				"id": "58d8e77f6928550ecbecc33b",
+				"bytes": 0,
+				"date": "",
+				"edgeColor": "",
+				"idMember": "",
+				"isUpload": false,
+				"mimeType": "",
+				"name": "rss",
+				"previews": null,
+				"url": "http://disasterpodcast.com/feed/podcast/"
+			},
+			{
+				"id": "58d8eb0a510941efc7756b6c",
+				"bytes": 0,
+				"date": "",
+				"edgeColor": "",
+				"idMember": "",
+				"isUpload": false,
+				"mimeType": "",
+				"name": "logo",
+				"previews": null,
+				"url": "https://trello-attachments.s3.amazonaws.com/5899f0b171f1eb50e8878e7f/58d8dce254e0a40f15472ec2/f557dc87f8ce54245b5206687447700d/170x170bb.jpg"
+			}
+		]
+	},
+	{
+		"id": "58d8dce992e7d5f38e8b3e0e",
+		"badges": {
+			"votes": 0,
+			"viewingMemberVoted": false,
+			"subscribed": false,
+			"fogbugz": "",
+			"checkItems": 0,
+			"checkItemsChecked": 0,
+			"comments": 0,
+			"attachments": 0,
+			"description": false,
+			"due": ""
+		},
+		"checkItemStates": null,
+		"closed": false,
+		"dateLastActivity": "",
+		"desc": "Interviews \u0026 reporting covering philanthropy, nonprofits, and international aid.",
+		"descData": {
+			"emoji": {}
+		},
+		"due": "",
+		"email": "",
+		"idBoard": "",
+		"idChecklists": null,
+		"idLabels": null,
+		"idList": "58d796c6d5cd68d0a879de28",
+		"idMembers": null,
+		"idShort": 0,
+		"idAttachmentCover": "",
+		"manualCoverAttachment": false,
+		"labels": [
+			{
+				"id": "58a288e8cd7f2980d6a0b35f",
+				"idBoard": "5899f0b171f1eb50e8878e7f",
+				"name": "Humanitarian Crises",
+				"color": "sky",
+				"uses": 10
+			}
+		],
+		"name": "Tiny Spark",
+		"pos": 360447,
+		"shortUrl": "",
+		"url": "",
+		"attachments": [
+			{
+				"id": "58d8e0960ec1d265cdd745ba",
+				"bytes": 0,
+				"date": "",
+				"edgeColor": "",
+				"idMember": "",
+				"isUpload": false,
+				"mimeType": "",
+				"name": "listen",
+				"previews": null,
+				"url": "https://itunes.apple.com/th/podcast/tiny-spark/id505053432?mt=2\u0026ign-mpt=uo%3D4"
+			},
+			{
+				"id": "58d8e78c18d5c29a35b6b672",
+				"bytes": 0,
+				"date": "",
+				"edgeColor": "",
+				"idMember": "",
+				"isUpload": false,
+				"mimeType": "",
+				"name": "rss",
+				"previews": null,
+				"url": "http://tinyspark.libsyn.com/rss"
+			},
+			{
+				"id": "58d8eb9bc1b4ea13894dea55",
+				"bytes": 0,
+				"date": "",
+				"edgeColor": "",
+				"idMember": "",
+				"isUpload": false,
+				"mimeType": "",
+				"name": "logo",
+				"previews": null,
+				"url": "https://trello-attachments.s3.amazonaws.com/5899f0b171f1eb50e8878e7f/58d8dce992e7d5f38e8b3e0e/125a0c73f9e9b93540011ce33256ae39/170x170bb.jpg"
+			}
+		]
+	},
+	{
+		"id": "58d8dcf06a1eb78c675d8c58",
+		"badges": {
+			"votes": 0,
+			"viewingMemberVoted": false,
+			"subscribed": false,
+			"fogbugz": "",
+			"checkItems": 0,
+			"checkItemsChecked": 0,
+			"comments": 0,
+			"attachments": 0,
+			"description": false,
+			"due": ""
+		},
+		"checkItemStates": null,
+		"closed": false,
+		"dateLastActivity": "",
+		"desc": "A weekly podcast that features interviews with humanitarian aid and development professionals.",
+		"descData": {
+			"emoji": {}
+		},
+		"due": "",
+		"email": "",
+		"idBoard": "",
+		"idChecklists": null,
+		"idLabels": null,
+		"idList": "58d796c6d5cd68d0a879de28",
+		"idMembers": null,
+		"idShort": 0,
+		"idAttachmentCover": "",
+		"manualCoverAttachment": false,
+		"labels": [
+			{
+				"id": "58a288e8cd7f2980d6a0b35f",
+				"idBoard": "5899f0b171f1eb50e8878e7f",
+				"name": "Humanitarian Crises",
+				"color": "sky",
+				"uses": 10
+			}
+		],
+		"name": "Terms of Reference Podcast",
+		"pos": 425983,
+		"shortUrl": "",
+		"url": "",
+		"attachments": [
+			{
+				"id": "58d8e0ab3f1b199a095be0b8",
+				"bytes": 0,
+				"date": "",
+				"edgeColor": "",
+				"idMember": "",
+				"isUpload": false,
+				"mimeType": "",
+				"name": "listen",
+				"previews": null,
+				"url": "https://itunes.apple.com/us/podcast/terms-of-reference/id799172735"
+			},
+			{
+				"id": "58d8e7978faf284fabd93c02",
+				"bytes": 0,
+				"date": "",
+				"edgeColor": "",
+				"idMember": "",
+				"isUpload": false,
+				"mimeType": "",
+				"name": "rss",
+				"previews": null,
+				"url": "http://termsofreference.libsyn.com/rss"
+			},
+			{
+				"id": "58d8ebcaf038001175e0bcaa",
+				"bytes": 0,
+				"date": "",
+				"edgeColor": "",
+				"idMember": "",
+				"isUpload": false,
+				"mimeType": "",
+				"name": "logo",
+				"previews": null,
+				"url": "https://trello-attachments.s3.amazonaws.com/5899f0b171f1eb50e8878e7f/58d8dcf06a1eb78c675d8c58/d42ab241a77d46ffa51ca5a180ef0052/170x170bb.jpg"
+			}
+		]
 	}
 ]
