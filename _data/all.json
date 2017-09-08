@@ -1,0 +1,85 @@
+[
+	{
+		"id": "58a28896cc109a3902f5bcfd",
+		"badges": {
+			"votes": 0,
+			"viewingMemberVoted": false,
+			"subscribed": false,
+			"fogbugz": "",
+			"checkItems": 0,
+			"checkItemsChecked": 0,
+			"comments": 0,
+			"attachments": 0,
+			"description": false,
+			"due": ""
+		},
+		"checkItemStates": null,
+		"closed": false,
+		"dateLastActivity": "",
+		"desc": "A global radio service focusing on the health, education, equality and protection of children.",
+		"descData": {
+			"emoji": {}
+		},
+		"due": "",
+		"email": "",
+		"idBoard": "",
+		"idChecklists": null,
+		"idLabels": null,
+		"idList": "58d796c6d5cd68d0a879de28",
+		"idMembers": null,
+		"idShort": 0,
+		"idAttachmentCover": "",
+		"manualCoverAttachment": false,
+		"labels": [
+			{
+				"id": "58a288e8cd7f2980d6a0b35f",
+				"idBoard": "5899f0b171f1eb50e8878e7f",
+				"name": "Humanitarian Crises",
+				"color": "sky",
+				"uses": 10
+			}
+		],
+		"name": "UNICEF Podcast",
+		"pos": 98303,
+		"shortUrl": "",
+		"url": "",
+		"attachments": [
+			{
+				"id": "58d8e61a7ff3238cab665a22",
+				"bytes": 0,
+				"date": "",
+				"edgeColor": "",
+				"idMember": "",
+				"isUpload": false,
+				"mimeType": "",
+				"name": "rss",
+				"previews": null,
+				"url": "https://www.unicef.org/rss/podcast.xml"
+			},
+			{
+				"id": "58d8e626b6c349eed4ceb20a",
+				"bytes": 0,
+				"date": "",
+				"edgeColor": "",
+				"idMember": "",
+				"isUpload": false,
+				"mimeType": "",
+				"name": "listen",
+				"previews": null,
+				"url": "https://itunes.apple.com/us/podcast/unicef-podcast/id77700259?mt=2"
+			},
+			{
+				"id": "58d8ea8abf0ce715164347d1",
+				"bytes": 0,
+				"date": "",
+				"edgeColor": "",
+				"idMember": "",
+				"isUpload": false,
+				"mimeType": "",
+				"name": "logo",
+				"previews": null,
+				"url": "https://trello-attachments.s3.amazonaws.com/5899f0b171f1eb50e8878e7f/58a28896cc109a3902f5bcfd/c9d9a7da64a3b2f70018cc4d14abfb3e/170x170bb.jpg"
+			}
+		]
+	}
+]
