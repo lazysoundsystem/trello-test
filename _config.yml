@@ -1,0 +1,12 @@
+name: Template trello->gh-pages site
+
+description: Work in progress
+
+item: podcast
+
+baseurl: file:///home/andy/Documents/trello-test/_site/
+
+collections:
+  podcast:
+    output: true
+

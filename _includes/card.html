@@ -1,0 +1,38 @@
+<div class="card {{ include.name }}">
+
+  <header>
+      <h2><a href="{{ site.baseurl }}{{ site.item }}/{{ include.name | slugify }}/index.html">{{ include.name }}</a></h2>
+      <span class="category"><i class="icon-tag"></i> {{ include.list }}</span><br/>
+  </header>
+  <dl>
+    <dt>name</dt>
+    <dd>{{ include.name }}</dd>
+    <dt>list</dt>
+    <dd>{{ include.list }}</dd>
+    <dt>attachments</dt>
+    <dd>{{ include.attachments }}</dd>
+    <dt>desc</dt>
+    <dd>{{ include.desc }}</dd>
+  </dl>
+  {% for attachment in include.attachments %}
+    {% if attachment.name == "logo" %}
+    <img src="{{ attachment.url }}">
+    {% endif %}
+  {% endfor %}
+
+  <div class="description">
+    {{ include.desc }}
+  </div>
+
+  <div class="links">
+  {% for attachment in card.attachments %}
+    {% if attachment.name == "listen" %}
+    <a href="{{ attachment.url }}">iTunes link</a>
+    {% endif %}
+    {% if attachment.name == "rss" %}
+    <a href="{{ attachment.url }}">RSS feed</a>
+    {% endif %}
+  {% endfor %}
+  </div>
+
+</div>

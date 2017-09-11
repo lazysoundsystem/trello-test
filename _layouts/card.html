@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{% assign card = site.data.all | where:"name", page.name | first %}
+{% for list in site.data.lists %}
+  {% if list[0] == card.idList %}
+    {% assign category = list[1] %}
+  {% endif %}
+{% endfor %}
+<div class="{{ site.type }}">
+  <h2>{{ page.name }}</h2>
+    {% include single-card.html
+      name = card.name
+      list = category
+      attachments = card.attachments
+      desc = card.desc %}
+</div>

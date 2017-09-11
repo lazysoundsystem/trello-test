@@ -1,0 +1,10 @@
+name: Template trello->gh-pages site
+
+description: Work in progress
+
+baseurl: file:///home/andy/ReliefWeb/sample-site/_site/
+
+collections:
+  single:
+    output: true
+
