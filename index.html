@@ -3,22 +3,27 @@ layout: default
 title: Home
 ---
 
+<div class="categories">
+<h3>Jump to category:</h3>
+  <ul>
 {% for list in site.data.lists %}
-  <p>Jump to category: <a href="#{{ list[1] | slugify }}">{{ list[1] }}</a></p>
+    <li><a href="#{{ list[1] | slugify }}">{{ list[1] }}</a></li>
 {% endfor %}
+  </ul>
+</div>
 
 {% for list in site.data.lists %}
   {% assign categoryId = list[0] %}
   {% assign category = list[1] %}
+  <h2 id="{{ list[1] | slugify }}"><i class="icon-tag"></i> {{ category }}</h2>
   <div class="category {{ category }}">
-    <h2 id="{{ list[1] }}">This is category {{ category }}</h2>
-    {% assign listCards = site.data.all | where:"idList", categoryId %}
-    {% for card in listCards %}
-      {% include card.html
-        name = card.name
-        list = category
-        attachments = card.attachments
-        desc = card.desc %}
-    {% endfor %}
+      {% assign listCards = site.data.all | where:"idList", categoryId %}
+      {% for card in listCards %}
+        {% include card.html
+          name = card.name
+          list = category
+          attachments = card.attachments
+          desc = card.desc %}
+      {% endfor %}
   </div>
 {% endfor %}

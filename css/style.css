@@ -1,0 +1,129 @@
+:root {
+  --color1: #cea3;
+  --color2: #ace5;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column-gap: 20px;
+  margin: 0px;
+}
+
+.card,
+nav .content,
+header,
+main,
+.category,
+footer .content {
+  display: grid;
+  grid-column: 2 / span 6;
+  grid-column-gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
+}
+
+nav .content,
+header,
+footer .content {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.category {
+  grid-column: 1 / span 6;
+}
+
+.category,
+main {
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+nav {
+  background-image: linear-gradient(0deg, var(--color1), var(--color2));
+  background-size: cover;
+  grid-column: span 8;
+}
+
+nav .utilities {
+  justify-self: end;
+}
+
+nav ul,
+nav li {
+  display: inline;
+}
+
+.social-media-icons svg {
+  height: 40px;
+  width: 40px;
+}
+
+nav .global svg {
+  height: 40px;
+  width: 40px;
+}
+
+header .text {
+  grid-column: 2;
+}
+
+main {
+  padding-bottom: 120px;
+}
+
+main h2 {
+  grid-column: span 6;
+}
+
+.card {
+  background-color: var(--color2);
+  display: grid;
+  grid-column: span 2;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.single-card {
+  grid-column: span 6;
+  grid-gap: 20px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3,
+.card .description,
+.card .links {
+  grid-column: span 2;
+}
+
+.card .links {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.icon-tag {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><g width='100%'><rect fill='%23169' x='2' y='2' width='16' height='16'/><circle r='9' cy='10' cx='10' fill='%23a00'/></g></svg>");
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  top: 5px;
+  width: 20px;
+}
+
+footer {
+  grid-column: span 8;
+  background-image: linear-gradient(180deg, var(--color1), var(--color2));
+  background-size: cover;
+  min-height: 200px;
+  padding: 40px 0;
+}
+
+.back-to-top {
+  justify-self: end;
+}
+

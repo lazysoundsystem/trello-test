@@ -8,11 +8,8 @@ layout: default
     {% assign category = list[1] %}
   {% endif %}
 {% endfor %}
-<div class="{{ site.type }}">
-  <h2>{{ page.name }}</h2>
-    {% include single-card.html
-      name = card.name
-      list = category
-      attachments = card.attachments
-      desc = card.desc %}
-</div>
+{% include single-card.html
+  name = card.name
+  list = category
+  attachments = card.attachments
+  desc = card.desc %}

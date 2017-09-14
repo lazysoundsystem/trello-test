@@ -4,7 +4,14 @@ description: Work in progress
 
 item: podcast
 
-baseurl: file:///home/andy/Documents/trello-test/_site/
+baseurl: file:///home/andy/Documents/trello-test/_site
+
+headertitle: Banner for the test
+headertext: Explanation and description of the test.
+
+gtm-token: GTM-xxxxxx
+social-media-handle: name
+youtube-channel: UCxxxxxxxxxxxxxxxxx
 
 collections:
   podcast:
