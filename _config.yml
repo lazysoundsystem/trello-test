@@ -4,7 +4,7 @@ description: Work in progress
 
 item: podcast
 
-baseurl: file:///home/andy/Documents/trello-test/_site
+baseurl: https://lazysoundsystem.github.io/trello-test
 
 headertitle: Banner for the test
 headertext: Explanation and description of the test.
