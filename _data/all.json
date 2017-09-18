@@ -1724,7 +1724,7 @@
 				"idMember": "",
 				"isUpload": false,
 				"mimeType": "",
-				"name": "Logo",
+				"name": "logo",
 				"previews": null,
 				"url": "https://trello-attachments.s3.amazonaws.com/5899f0b171f1eb50e8878e7f/58e73521324c48e1b1a8a9da/64d851a42babb7caa00f651750b49646/170x170bb.jpg"
 			},
@@ -1736,7 +1736,7 @@
 				"idMember": "",
 				"isUpload": false,
 				"mimeType": "",
-				"name": "Listen",
+				"name": "listen",
 				"previews": null,
 				"url": "https://itunes.apple.com/us/podcast/global-health-checkup/id1226066663?mt=2"
 			}
