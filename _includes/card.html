@@ -2,7 +2,8 @@
 
   <h3><a href="{{ site.baseurl }}/{{ site.item }}/{{ include.name | slugify }}/index.html">{{ include.name }}</a></h3>
   {% for attachment in include.attachments %}
-    {% if attachment.name == "logo" %}
+    {% capture attachment_name %}{{ attachment.name | downcase }}{% endcapture %}
+    {% if attachment_name  == "logo" %}
     <img src="{{ attachment.url }}" alt="{{ include.name }} logo image">
     {% endif %}
   {% endfor %}
@@ -14,10 +15,11 @@
 
   <div class="links">
   {% for attachment in card.attachments %}
-    {% if attachment.name == "listen" %}
+    {% capture attachment_name %}{{ attachment.name | downcase }}{% endcapture %}
+    {% if attachment_name == "listen" %}
     <a href="{{ attachment.url }}">iTunes link</a>
     {% endif %}
-    {% if attachment.name == "rss" %}
+    {% if attachment_name == "rss" %}
     <a href="{{ attachment.url }}">RSS feed</a>
     {% endif %}
   {% endfor %}
